@@ -22,6 +22,11 @@ quux	2
 
 Left as an exercise, but you can deploy this code on Hadoop.
 
+## Resources
+
+- https://en.wikipedia.org/wiki/MapReduce
+- http://wiki.apache.org/hadoop/HadoopMapReduce
+
 ## Credits
 
 This code was inspired by an (awesome tutorial by Michael Noll)[http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/].
