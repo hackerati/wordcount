@@ -10,14 +10,14 @@ word = None
 # input comes from STDIN
 for line in sys.stdin:
     # remove leading and trailing whitespace
-    line = line.strip()
+    line = line.strip ()
 
     # parse the input we got from mapper.py
-    word, count = line.split('\t', 1)
+    word, count = line.split ('\t', 1)
 
     # convert count (currently a string) to int
     try:
-        count = int(count)
+        count = int (count)
     except ValueError:
         # count was not a number, so silently
         # ignore/discard this line
@@ -30,10 +30,10 @@ for line in sys.stdin:
     else:
         if current_word:
             # write result to STDOUT
-            print (current_word + '\t' + str(current_count))
+            print (current_word + '\t' + str (current_count))
         current_count = count
         current_word = word
 
 # do not forget to output the last word if needed!
 if current_word == word:
-    print (current_word + '\t' + str(current_count))
+    print (current_word + '\t' + str (current_count))

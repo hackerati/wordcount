@@ -4,8 +4,8 @@ import sys
 
 # input comes from STDIN (standard input)
 for line in sys.stdin:
-    line = line.strip() # remove leading and trailing whitespace
-    words = line.split() # split the line into words
+    line = line.strip () # remove leading and trailing whitespace
+    words = line.split () # split the line into words
 
     # write the results to STDOUT (standard output);
     # what we output here will be the input for the
